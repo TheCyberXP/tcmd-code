@@ -25,17 +25,17 @@ test1.build = function() {
 		table.setData(_event.data);
 		label.text = _event.label;
 	}
-	// adding this event listener causes a memory leak
-	// as references remain valid after build() finishes
 	Ti.App.addEventListener('bad:idea', doSomething);
+	
+	
+	test1win.addEventListener('close', function(){
+		Ti.App.removeEventListener('bad:idea', doSomething)
+	});
+	
 	
 	test1win.add(label);
 	test1win.add(table);
 	test1win.rightNavButton = close;
-	
-	test1win.addEventListener('close', function(){
-		Ti.App.removeEventListener('bad:idea', doSomething);
-	})
-	
+		
 	test1win.open({ modal: true });
 };

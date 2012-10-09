@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Add a fugitive</title>
+		<title>Add a Fugitive</title>
 		<style type="text/css">
 			h3 {color:#fff;font-weight:bold;}
 			input { height: 40px; width:90%; margin-bottom: 5px;}
@@ -9,11 +9,9 @@
 		</style>
 		<script type="text/javascript">
 		function send() {
-			// add the necessary code to forward the data to the native Ti wrapper
-			// it should pass variables: name, heightFeet, heightInches, and description as an object
-			Ti.App.fireEvent('fugitiveSaved',{
+			Titanium.App.fireEvent('fugitiveSaved',{
 				name:document.getElementById('name').value,
-				heightFeet:document.getElementById('heightFeet').value,
+				alias:document.getElementById('alias').value,
 				heightInches:document.getElementById('heightInches').value,
 				description:document.getElementById('description').value,
 			});
@@ -25,11 +23,9 @@
 			<input type="text" placeholder="Full name" id="name"/>
 		</div>
 		<div>
-			<!-- alter to display the numeric keyboard on focus -->
-			<input type="number" placeholder="Height (feet)" id="heightFeet"/>
+			<input type="text" placeholder="Alias" id="alias"/>
 		</div>
 		<div>
-			<!-- alter to display the numeric keyboard on focus -->
 			<input type="number" placeholder="Height (inches)" id="heightInches"/>
 		</div>
 		<div>

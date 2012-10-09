@@ -8,8 +8,8 @@
 	var CustomScrollableView = require('CustomScrollableView');
 	win.add(new CustomScrollableView());
 	
-	var CustomScollView = require('CustomScrollView');
-	win.add(new CustomScollView());
+	var CustomScrollView = require('CustomScrollView');
+	win.add(new CustomScrollView());
 	
 	// open the window
 	win.open();

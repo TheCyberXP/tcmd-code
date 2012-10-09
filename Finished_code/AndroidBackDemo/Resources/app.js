@@ -41,10 +41,10 @@ var myapp = {};
 			// remove the event listener on the window so that we can hit the
 			// Back button again to close the app
 			// existOnClose:true is required on the window for this to work
-			win.removeEventListener('android:back',closeView);
+			win.removeEventListener('androidback',closeView);
 		};
 		
-		win.addEventListener('android:back',closeView);
+		win.addEventListener('androidback',closeView);
 		win.add(myview);
 		
 		return win;

@@ -7,7 +7,8 @@ var app = {};
 		// add the Android-specific property to scroll the window if the soft keyboard covers fields
 		var win = Ti.UI.createWindow({
 			backgroundImage:'images/background.png',
-			windowSoftInputMode: Ti.UI.SOFT_INPUT_ADJUST_PAN
+			softInputMode: Ti.UI.SOFT_INPUT_ADJUST_PAN,
+			exitOnClose: true
 		});
 		win.add(Ti.UI.createLabel({
 			text:'Enter some text and share',
