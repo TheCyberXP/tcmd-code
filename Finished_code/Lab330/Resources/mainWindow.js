@@ -87,3 +87,16 @@ function outputFugitiveStats(fugitive) {
 // Our simple module publishes the window only
 exports.mainWin = win;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
