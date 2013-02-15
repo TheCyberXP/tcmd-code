@@ -1,0 +1,7 @@
+".container": {
+	backgroundColor:"white"
+},
+"#starwidget": {
+	top: 100,
+	left: 20
+}

@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Require type="widget" id="starwidget" src="starrating" top='100' max='5' initialRating='2.5'/>
+	</Window>
+</Alloy>

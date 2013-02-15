@@ -1,0 +1,24 @@
+".container": {
+	backgroundColor:"transparent",
+	backgroundImage:'gradientBackground.png'
+},
+"#pageHeading": {
+	text: 'Custom Table',
+	color:'#3E3F87',
+	font:{
+		fontSize:18,
+		fontWeight:'bold'
+	},
+	top:1,
+	left:10,
+	height:35
+}
+"#theTable": {
+	width:'90%',
+	height:'85%',
+	top:45,
+	backgroundColor:'transparent'
+},
+"#theTable[platform=ios]": {
+	separatorStyle:Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
+}

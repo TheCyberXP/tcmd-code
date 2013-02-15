@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow class="row" id="rowView">
+		<ImageView class="left" id="leftImage"/>
+		<Label class="title" id="primaryLabel"/>
+		<Label class="subtitle" id="subtitle"/>
+		<ImageView class="right" id="rightImage"/>
+	</TableViewRow>
+</Alloy>

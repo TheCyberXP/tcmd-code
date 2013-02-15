@@ -1,0 +1,30 @@
+".container": {
+	backgroundColor:"black"
+},
+"#scrolly": {
+	contentWidth:Ti.UI.SIZE,
+	contentHeight:Ti.UI.SIZE,
+	top:0,
+	width:Ti.UI.FILL,
+	height:'30dp',
+	scrollType: 'horizontal',
+	backgroundColor: '#fff',
+	layout: 'horizontal'
+},
+"Label":{
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE,
+	color:'#000',
+	left:10,
+	top:0
+}
+"ImageView": {
+	height: Ti.UI.FILL
+},
+"#cards": {
+	top:'30dp',
+	height:Ti.UI.FILL,
+	showPagingControl:true,
+	pagingControlHeight:30,
+	backgroundColor: '#000'
+}

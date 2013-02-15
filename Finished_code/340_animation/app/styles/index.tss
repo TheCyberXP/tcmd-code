@@ -1,0 +1,35 @@
+".container": {
+	backgroundColor:"white"
+},
+"#label": {
+	text:'Click the boxes for fun!',
+	color:'#000',
+	font:{
+		fontSize:20,
+		fontWeight:'bold'
+	},
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	top:10
+},
+".box": {
+	height:50,
+	width:100,
+	color:'#fff',
+	font:{
+		fontWeight:'bold'
+	},
+	textAlign: 'center'
+},
+"#box1": {
+	top: 50,
+	backgroundColor: 'red'
+},
+"#box2": {
+	top: 120,
+	backgroundColor: 'green'
+},
+"#box3": {
+	top: 190,
+	backgroundColor: 'blue'
+}

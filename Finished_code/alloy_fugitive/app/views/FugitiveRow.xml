@@ -1,8 +1,0 @@
-<Alloy>
-	<TableViewRow id="row" dataId="">
-		<View class="vgroup">
-			<Label id="name"/>
-			<Label id="address"/>
-		</View>
-	</TableViewRow>
-</Alloy>

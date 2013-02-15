@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView id="scrolly">
+			<TextField id="normal"/>
+			<TextField id="numeric"/>
+			<TextField id="web"/>
+			<TextField id="email"/>
+			<TextField id="password"/>
+		</ScrollView>
+	</Window>
+</Alloy>

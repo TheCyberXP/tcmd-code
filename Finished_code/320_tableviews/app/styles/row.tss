@@ -1,0 +1,40 @@
+".row": {
+	backgroundImage:'middleRow.png',
+	selectedBackgroundImage:'middleRowSelected.png',
+	backgroundColor:'transparent',
+	height:74
+},
+".left": {
+	height:64,
+	width:64,
+	top:8,
+	left:8
+},
+".right": {
+	image:'notificationBadge.png',
+	height:22,
+	width:25,
+	top:32,
+	right:10,
+	myImage:'blue'
+},
+".title": {
+	font:{
+		fontSize:16,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:20,
+	left:75,
+	height:Ti.UI.SIZE
+},
+".subtitle": {
+	font:{
+		fontSize:13,
+		fontWeight:'bold'
+	},
+	color:'black',
+	top:42,
+	left:75,
+	height:Ti.UI.SIZE
+}

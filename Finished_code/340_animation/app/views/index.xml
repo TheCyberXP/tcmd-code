@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label">Click the boxes for fun!</Label>
+		<Label id="box1" class="box" onClick="doBox1">fade out/in</Label>
+		<Label id="box2" class="box" onClick="doBox2">fly out/in</Label>
+		<Label id="box3" class="box" onClick="doBox3">shake</Label>
+	</Window>
+</Alloy>

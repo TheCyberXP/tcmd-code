@@ -1,0 +1,28 @@
+".container": {
+	backgroundColor:"transparent",
+	backgroundImage: 'images/background.png',
+	windowSoftInputMode: Ti.UI.SOFT_INPUT_ADJUST_PAN,
+	exitOnClose: true
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color:'white',
+	font:{
+		fontWeight:'bold',
+		fontSize:20
+	},
+	top:5
+},
+"#message": {
+	hintText:'Enter a message to share',
+	width:'90%',
+	height:120,
+	top:35
+},
+"#share": {
+	top:175,
+	width:140,
+	height:40,
+	title: 'Share It!' 
+}

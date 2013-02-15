@@ -1,0 +1,3 @@
+$.starwidget.init();
+
+$.index.open();

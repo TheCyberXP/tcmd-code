@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label">Enter some text and share</Label>
+		<TextArea id="message"/>
+		<Button id="share"/>
+	</Window>
+</Alloy>

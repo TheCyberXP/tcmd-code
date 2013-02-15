@@ -1,0 +1,45 @@
+".container": {
+	backgroundColor:"white"
+},
+"#scrolly": {
+	
+},
+"#normal":{
+	top: '50dp', width: '85%', height: '40dp',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType: Ti.UI.RETURNKEY_DEFAULT,
+	autocorrect: true,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	hintText: 'default'
+},
+"#numeric":{
+	top: '150dp', width: '85%', height: '40dp',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType: Ti.UI.KEYBOARD_NUMBERS_PUNCTUATION,
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	hintText: 'numbers_punctuation'
+},
+"#web":{
+	top: '250dp', width: '85%', height: '40dp',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType: Ti.UI.KEYBOARD_URL,
+	returnKeyType: Ti.UI.RETURNKEY_GO,
+	hintText: 'url'
+},
+"#email":{
+	top: '350dp', width: '85%', height: '40dp',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType: Ti.UI.KEYBOARD_EMAIL,
+	returnKeyType: Ti.UI.RETURNKEY_SEND,
+	hintText: 'email'
+},
+"#password":{
+	top: '450dp', width: '85%', height: '40dp',
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType: Ti.UI.KEYBOARD_DEFAULT,
+	hintText: 'password',
+	passwordMask: true,
+	autocorrect: false,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+}
